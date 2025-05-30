@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "src/icp_dsatke_backend"
+]
+resolver = "2"

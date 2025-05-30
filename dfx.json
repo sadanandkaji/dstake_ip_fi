@@ -1,0 +1,27 @@
+{
+  "canisters": {
+    "icp_dsatke_backend": {
+      "candid": "src/icp_dsatke_backend/icp_dsatke_backend.did",
+      "package": "icp_dsatke_backend",
+      "type": "rust"
+    },
+    "icp_dsatke_frontend": {
+      "dependencies": [
+        "icp_dsatke_backend"
+      ],
+      "source": [
+        "src/icp_dsatke_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "icp_dsatke_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
