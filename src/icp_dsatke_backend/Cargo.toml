@@ -9,6 +9,12 @@ edition = "2021"
 crate-type = ["cdylib"]
 
 [dependencies]
-candid = "0.10"
-ic-cdk = "0.17"
-ic-cdk-timers = "0.11" # Feel free to remove this dependency if you don't need timers
+ic-cdk = "0.8.3"
+ic-cdk-macros = "0.8.3"
+candid = "0.8.4"           # Must be compatible with ic-cdk
+serde = { version = "1.0", features = ["derive"] }
+serde_derive = "1.0"       # Add this explicitly
+once_cell = "1.19"
+
+
+

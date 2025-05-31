@@ -1,10 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-import './index.scss';
+import "./styles.css"
 
 ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
+
+  <div className='bg-blue-200 h-20'>
+
     <App />
-  </React.StrictMode>,
+  </div>
+ 
 );

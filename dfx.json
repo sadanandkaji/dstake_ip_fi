@@ -14,6 +14,16 @@
       ],
       "type": "assets",
       "workspace": "icp_dsatke_frontend"
+    },
+      "icp_ledger_canister": {
+      "type": "custom",
+      "candid": "https://raw.githubusercontent.com/dfinity/ic/16825c5cbff83a51983d849b60c9d26b3268bbb6/rs/ledger_suite/icp/ledger.did",
+      "wasm": "https://download.dfinity.systems/ic/16825c5cbff83a51983d849b60c9d26b3268bbb6/canisters/ledger-canister.wasm.gz",
+      "remote": {
+        "id": {
+          "ic": "ryjl3-tyaaa-aaaaa-aaaba-cai"
+        }
+      }
     }
   },
   "defaults": {
